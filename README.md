@@ -2,8 +2,8 @@
 Maven archetype for quickstart of REST service
 
 ## Abstract
-This artifact is intended to ease starting new REST/Spring project. It is just a collection of some
-dependencies (Spring, JPA/Hibernate, Jackson, etc.). Current set is based on my personal preferences, so I may not be
+This artifact is intended to ease starting new REST/Spring projects. It is just a collection of some
+dependencies (Spring, JPA/Hibernate, Jackson, etc.). The actual set is based on my personal preferences, so it may not be
 perfect for you.
 
 ## Installing the artifact
@@ -17,6 +17,6 @@ mvn archetype:generate
     -DarchetypeGroupId=com.github.walak
     -DarchetypeArtifactId=spring-rest-quickstart
     -DarchetypeVersion=1.0
-    -DgroupId=org.dyndns.walak
+    -DgroupId=com.github.walak
     -DartifactId=test
     -Dversion=1.0-SNAPSHOT
