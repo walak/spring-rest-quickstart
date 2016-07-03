@@ -7,7 +7,7 @@
     <version>${version}</version>
     <packaging>jar</packaging>
 
-    <name>spring-rest-quickstart Maven Webapp</name>
+    <name>spring-rest-quickstart</name>
     <url>http://maven.apache.org</url>
 
     <dependencies>
