@@ -25,7 +25,7 @@ public class Config {
     public LocalContainerEntityManagerFactoryBean localContainerEntityManagerFactoryBean(DataSource dataSource, JpaVendorAdapter jpaVendorAdapter) {
         LocalContainerEntityManagerFactoryBean localContainerEntityManagerFactoryBean = new LocalContainerEntityManagerFactoryBean();
         localContainerEntityManagerFactoryBean.setDataSource(dataSource);
-        localContainerEntityManagerFactoryBean.setPackagesToScan("${groupId}");
+        localContainerEntityManagerFactoryBean.setPackagesToScan("${groupId}.model");
         localContainerEntityManagerFactoryBean.setJpaVendorAdapter(jpaVendorAdapter);
         localContainerEntityManagerFactoryBean.setJpaPropertyMap(new HashMap<String, String>() {{
             put("hibernate.hbm2ddl.auto", "update");

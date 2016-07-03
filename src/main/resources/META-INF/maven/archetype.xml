@@ -4,11 +4,26 @@
     <id>spring-rest-quickstart</id>
     <sources>
         <source>src/main/java/Config.java</source>
+        <source>src/main/java/App.java</source>
         <source>src/main/java/controller/HomeController.java</source>
+        <source>src/main/java/dao/BasicDao.java</source>
+        <source>src/main/java/dao/Dao.java</source>
+        <source>src/main/java/dao/foo/FooDao.java</source>
+        <source>src/main/java/model/FooEntity.java</source>
+        <source>src/main/java/runner/JettyRunner.java</source>
+        <source>src/main/java/service/BasicDaoService.java</source>
+        <source>src/main/java/service/DaoService.java</source>
+        <source>src/main/java/service/foo/FooDaoService.java</source>
+        <source>src/main/java/service/foo/PersistentFooDaoService.java</source>
     </sources>
+    <testSources>
+        <source>src/test/java/TestConfig.java</source>
+        <source>src/test/java/dao/DaoIntegrationTest.java</source>
+        <source>src/test/java/runner/JettyRunnerIntegrationTest.java</source>
+    </testSources>
     <resources>
         <resource>src/main/webapp/WEB-INF/dispatcher-servlet.xml</resource>
         <resource>src/main/webapp/WEB-INF/web.xml</resource>
     </resources>
-    <testSources></testSources>
+
 </archetype>
