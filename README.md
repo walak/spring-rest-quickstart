@@ -31,6 +31,7 @@ mvn archetype:generate
     -DgroupId=com.github.walak
     -DartifactId=test
     -Dversion=1.0-SNAPSHOT
+```
 
 # Changelog
 
