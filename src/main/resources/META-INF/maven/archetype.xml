@@ -15,11 +15,14 @@
         <source>src/main/java/service/DaoService.java</source>
         <source>src/main/java/service/foo/FooDaoService.java</source>
         <source>src/main/java/service/foo/PersistentFooDaoService.java</source>
+        <source>src/main/java/runner/ContainerRunner.java</source>
+        <source>src/main/java/runner/TomcatRunner.java</source>
     </sources>
     <testSources>
         <source>src/test/java/TestConfig.java</source>
         <source>src/test/java/dao/DaoIntegrationTest.java</source>
         <source>src/test/java/runner/JettyRunnerIntegrationTest.java</source>
+        <source>src/test/java/runner/TomcatRunnerIntegrationTest.java</source>
     </testSources>
     <resources>
         <resource>src/main/webapp/WEB-INF/dispatcher-servlet.xml</resource>

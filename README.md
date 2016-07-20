@@ -35,6 +35,10 @@ mvn archetype:generate
 
 # Changelog
 
+## Changes in version 1.3
+* TomcatRunner added to run app with Tomcat (default one is Jetty still)
+* Running with Tomcat provides hot swap functionality out-of-the-box
+  
 ## Changes in version 1.2
 * JettyRunner is now configured to automatically redeploying 
 

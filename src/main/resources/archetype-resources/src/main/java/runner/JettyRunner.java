@@ -8,7 +8,7 @@ import org.eclipse.jetty.webapp.WebAppContext;
 
 import java.io.File;
 
-public class JettyRunner {
+public class JettyRunner implements ContainerRunner {
     private static final int DEFAULT_PORT = 8080;
     private static final String DEFAULT_RESOURCE_PATH = "src/main/webapp";
     private static final String DEFAULT_DESCRIPTOR_PATH = "src/main/webapp/WEB-INF/web.xml";
